@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mario_back3"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:text="MarioBros"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/Image_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:adjustViewBounds="true"
+            android:elevation="10dp"
+            android:maxWidth="200dp"
+            android:src="@drawable/img"
+            android:scaleType="centerCrop"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/textview_main_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Welcome to \nmy Adnroid Firebase Project"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="90dp"
+            android:id="@+id/email_id"
+
+            android:background="@drawable/border"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="140dp"
+            android:id="@+id/password"
+            android:background="@drawable/border"
+            android:hint="Password"
+            android:padding="6dp"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPassword"
+            android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageview_show_hide_password"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_alignTop="@+id/password"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="59dp"
+                android:src="@drawable/ic_hide_pwd"
+                android:layout_marginEnd="60dp"/>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:id="@+id/Login_button"
+                android:layout_marginStart="50dp"
+                android:text="LOGIN" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textview_register"
+                    android:text="Not a User Yet?"
+                    android:layout_marginTop="260dp"
+                    android:textAlignment="center"
+                    />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview_link_register"
+                android:text="Sign Up Now !"
+                android:layout_marginTop="280dp"
+                android:textAlignment="center"
+                android:textColor="@color/dark_blue"
+                android:padding="6dp"
+                />
+                <ProgressBar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progress_bar"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:elevation="10dp"
+                    android:visibility="gone"/>
+
+
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/mario_back12_copy"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

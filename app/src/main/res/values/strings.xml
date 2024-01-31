@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirebaseLogin_Register</string>
+    <string name="user_since">You are a Registered User since:\n %1$s</string>
+    <string name="welcome_user">Welcome %1$s</string>
+</resources>

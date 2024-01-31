@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfileActivity"
+    android:background="@drawable/mario_back3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Loading..."
+            android:textAppearance = "@style/TextAppearance.AppCompat.Headline"
+            android:textColor = "@color/white"
+            android:textAlignment="center"
+            android:layout_margin="50dp"
+            android:id="@+id/textView_show_welcome"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/border">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/RL_name">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_profile"
+                    android:id="@+id/ic_profile"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:hint="Loading..."
+                    android:layout_marginStart="50dp"
+                    android:layout_alignStart ="@id/ic_profile"
+                    android:id="@+id/textView_show_name"/>
+            </RelativeLayout>
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_below= "@+id/RL_name"
+                android:id="@+id/divider_name"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/RL_email"
+                android:layout_below= "@id/RL_name"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_email"
+                    android:id="@+id/ic_email"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:hint="Loading..."
+                    android:layout_marginStart="50dp"
+                    android:layout_alignStart ="@id/ic_email"
+                    android:id="@+id/textView_show_email"/>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button_signingout"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RL_email"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="40dp"
+                android:text="SIGN OUT" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/button_signingout"
+                android:layout_marginTop="40dp"
+                android:hint="Loading..."
+                android:textAlignment="center"
+                android:id="@+id/textVew_show_register_date" />
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progress_bar"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                style="?android:attr/progressBarStyleLarge"
+                android:elevation="10dp"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

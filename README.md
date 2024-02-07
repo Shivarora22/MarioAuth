@@ -19,7 +19,7 @@ The Mario Auth project is an Android application that leverages Firebase for use
 - **Firebase Realtime Database**: Stores user metadata and registration information securely.
 
 ## Screenshots:
-<img width="300" alt="MarioAuth1" src="https://github.com/Shivarora22/MarioAuth/assets/104933581/1683b8e5-2639-4ebc-9cc9-57cb0dc36277">   <img width="300" alt="MarioAuth2" src="https://github.com/Shivarora22/MarioAuth/assets/104933581/0a378c39-3a69-444e-8fb9-58f3e0095708">   <img width="300" alt="MarioAuth3" src="https://github.com/Shivarora22/MarioAuth/assets/104933581/0280fe08-f04f-46be-9bc1-5b0a8a9c8bad">
+<img width="300" alt="MarioAuth1" src="https://github.com/Shivarora22/MarioAuth/assets/104933581/1683b8e5-2639-4ebc-9cc9-57cb0dc36277">               <img width="300" alt="MarioAuth2" src="https://github.com/Shivarora22/MarioAuth/assets/104933581/0a378c39-3a69-444e-8fb9-58f3e0095708">               <img width="300" alt="MarioAuth3" src="https://github.com/Shivarora22/MarioAuth/assets/104933581/0280fe08-f04f-46be-9bc1-5b0a8a9c8bad">
 
 
 ## Getting Started
